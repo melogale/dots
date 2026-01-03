@@ -1,5 +1,6 @@
 set fish_greeting ""
 set -gx XDG_DATA_HOME ~/.local/share
+fish_add_path ~/scripts
 
 function fish_prompt
     string join '' \
