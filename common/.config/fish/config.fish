@@ -1,5 +1,4 @@
 set fish_greeting ""
-set -gx XDG_DATA_HOME ~/.local/share
 fish_add_path ~/scripts
 
 function fish_prompt
@@ -19,4 +18,5 @@ if status is-interactive
     if test -f ~/.cache/wal/sequences
         cat ~/.cache/wal/sequences
     end
+    pokemon-colorscripts -r --no-title
 end
