@@ -59,7 +59,7 @@ Name=pinyin
 Layout=
 
 [GroupOrder]
-0=greek
-1=pinyin
+0=pinyin
+1=greek
 2=russian
 
