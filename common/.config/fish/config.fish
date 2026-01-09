@@ -20,3 +20,14 @@ if status is-interactive
     end
     pokemon-colorscripts -r --no-title
 end
+
+function ssh --wraps ssh
+    command ssh $argv
+    set -l code $status
+
+    if status is-interactive; and isatty stdout
+        test -f ~/.cache/wal/sequences; and cat ~/.cache/wal/sequences
+    end
+
+    return $code
+end
