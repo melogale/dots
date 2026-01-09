@@ -12,9 +12,7 @@ EnumerateForwardKeys=
 # Enumerate Input Method Backward
 EnumerateBackwardKeys=
 # Skip first input method while enumerating
-EnumerateSkipFirst=True
-# Enumerate Input Method Group Backward
-EnumerateGroupBackwardKeys=
+EnumerateSkipFirst=False
 # Time limit in milliseconds for triggering modifier key shortcuts
 ModifierOnlyKeyTimeout=250
 
@@ -23,6 +21,9 @@ ModifierOnlyKeyTimeout=250
 
 [Hotkey/EnumerateGroupForwardKeys]
 0=Control+Alt+Return
+
+[Hotkey/EnumerateGroupBackwardKeys]
+0=Control+Alt+Shift+Return
 
 [Hotkey/PrevPage]
 0=Up
