@@ -12,6 +12,8 @@ cd
 git clone git@github.com:melogale/dots.git
 cd dots
 stow -D common eurydice daedalus
-stow --no-folding --adopt common eurydice # or daedalus, in lieu of eurydice
+# use either eurydice or daedalus's machine specific config. not both
+# here i use eurydice.
+stow --no-folding --adopt common eurydice
 git restore
 ```
