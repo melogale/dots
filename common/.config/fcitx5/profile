@@ -1,10 +1,10 @@
 [Groups/0]
 # Group Name
-Name=russian
+Name=pinyin
 # Layout
 Default Layout=us
 # Default Input Method
-DefaultIM=keyboard-ru
+DefaultIM=pinyin
 
 [Groups/0/Items/0]
 # Name
@@ -14,7 +14,7 @@ Layout=
 
 [Groups/0/Items/1]
 # Name
-Name=keyboard-ru
+Name=pinyin
 # Layout
 Layout=
 
@@ -40,11 +40,11 @@ Layout=
 
 [Groups/2]
 # Group Name
-Name=pinyin
+Name=russian
 # Layout
 Default Layout=us
 # Default Input Method
-DefaultIM=pinyin
+DefaultIM=keyboard-ru
 
 [Groups/2/Items/0]
 # Name
@@ -54,7 +54,7 @@ Layout=
 
 [Groups/2/Items/1]
 # Name
-Name=pinyin
+Name=keyboard-ru
 # Layout
 Layout=
 

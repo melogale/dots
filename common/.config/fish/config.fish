@@ -1,6 +1,8 @@
 set fish_greeting ""
 fish_add_path ~/scripts
 
+set -gx EDITOR hx
+
 function fish_prompt
     string join '' \
         -- (set_color magenta) (fish_git_prompt '(%s) ') \
