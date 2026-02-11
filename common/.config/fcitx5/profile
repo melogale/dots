@@ -44,7 +44,7 @@ Name=russian
 # Layout
 Default Layout=us
 # Default Input Method
-DefaultIM=keyboard-ru
+DefaultIM=keyboard-ru-phonetic
 
 [Groups/2/Items/0]
 # Name
@@ -54,12 +54,12 @@ Layout=
 
 [Groups/2/Items/1]
 # Name
-Name=keyboard-ru
+Name=keyboard-ru-phonetic
 # Layout
 Layout=
 
 [GroupOrder]
-0=pinyin
-1=russian
+0=russian
+1=pinyin
 2=greek
 
