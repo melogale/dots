@@ -59,7 +59,7 @@ Name=keyboard-ru-phonetic
 Layout=
 
 [GroupOrder]
-0=russian
-1=pinyin
+0=pinyin
+1=russian
 2=greek
 
